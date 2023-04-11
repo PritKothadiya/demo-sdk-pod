@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PKSDK"
   spec.version      = "0.0.2"
-  spec.summary      = "A short description of PKSDK. This will be useful for testing purpose."
+  spec.summary      = "A short description of PKSDK. This will be useful for testing purpose. I am testing this demo."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "This is demo PKSDK."
+  spec.description  = "This is demo PKSDK. I am not sure right now what to write here."
 
   spec.homepage     = "https://github.com/PritKothadiya/demo-sdk-pod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
