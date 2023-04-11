@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PKSDK"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PKSDK."
+  spec.summary      = "A short description of PKSDK. This will be useful for testing purpose."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "A short description of PKSDK."
+  spec.description  = "This is demo PKSDK."
 
   spec.homepage     = "https://github.com/PritKothadiya/demo-sdk-pod"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,9 +78,12 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :http => 'file:' + __dir__ + "/" }
-  #spec.source       = { :git => "https://github.com/PritKothadiya/demo-sdk-pod.git", :tag => "#{spec.version}" }
 
+  spec.source       = { :git => "https://github.com/PritKothadiya/demo-sdk-pod.git", :tag => "#{spec.version}" }
+  
+  spec.vendored_frameworks = "PKSDK.xcframework"
+
+  spec.swift_versions = "5.0"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
