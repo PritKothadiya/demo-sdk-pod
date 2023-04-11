@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PKSDK"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A short description of PKSDK. This will be useful for testing purpose."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #
 
 
-  spec.source       = { :git => "https://github.com/PritKothadiya/demo-sdk-pod.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/PritKothadiya/demo-sdk-pod.git", :tag => spec.version.to_s }
   
   spec.vendored_frameworks = "PKSDK.xcframework"
 

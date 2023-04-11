@@ -7,6 +7,6 @@ target 'PKDemoAPP' do
   use_frameworks!
 
   # Pods for PKDemoAPP
-   pod 'PKSDK'
+   pod 'PKSDK', '0.0.1'
 
 end
